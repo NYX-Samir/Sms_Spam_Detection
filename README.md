@@ -1,5 +1,5 @@
 
-# SMS Spam Detection 🔍
+# SMS Spam Detection
 
 A comprehensive machine learning project to classify SMS messages as spam or ham using various classification algorithms and NLP techniques.
 
