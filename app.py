@@ -1,9 +1,9 @@
 import streamlit as st
 import pickle
-from text_utils import transform_text
+from src.text_utils import transform_text
 
-model = pickle.load(open("Model.pkl", "rb"))
-vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+model = pickle.load(open(r"model\Model.pkl", "rb"))
+vectorizer = pickle.load(open(r"model\vectorizer.pkl", "rb"))
 
 st.title("SMS Spam Detector")
 input_sms = st.text_area("Enter your message")
