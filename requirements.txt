@@ -1,7 +1,8 @@
-numpy
-pandas
-scikit-learn
-nltk
-matplotlib
-seaborn
-streamlit
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn== 1.7.0
+nltk==3.9.2
+matplotlib==3.10.7
+seaborn==0.13.2
+streamlit== 1.51.0
+fastapi==0.122.0
