@@ -17,6 +17,11 @@ class Message(BaseModel):
 model = pickle.load(open(MODEL_PATH, "rb"))
 vectorizer = pickle.load(open(VEC_PATH, "rb"))
 
+@app.get("/")
+def Home():
+    return {"Status":"OK"}
+
+       
 @app.post("/predict")
 def predict(msg:Message):
     clean_text = transform_text(msg.message)
