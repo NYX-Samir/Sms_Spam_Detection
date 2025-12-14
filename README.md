@@ -62,12 +62,17 @@ jupyter notebook
 
 ```
 Sms_Spam_Detection/
-├── notebook/
-│   └── Spam detection .ipynb    # Main Jupyter notebook
-├── data/                        # Dataset directory
-├── models/                      # Trained models
-├── results/                     # Output and visualizations
-└── README.md
+├── notebook/                     # Jupyter notebook for EDA + model experiments
+├── data/                         # Dataset files
+├── models/                       # Saved trained models
+├── results/                      # Plot images / output files
+├── app/                         # Streamlit app code
+├── model/                       # Possibly saved model + vectorizer
+├── service/                     # Inference / API code
+├── src/                         # Core ML utilities and text processing
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ## Results
