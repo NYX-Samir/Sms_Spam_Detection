@@ -95,5 +95,7 @@ This project is open source and available under the MIT License.
 ## Author
 
 **Samir NYX**
-- GitHub: [@NYX-Samir](https://github.com/NYX-Samir)
+```
+GitHub: [@NYX-Samir]
+https://github.com/NYX-Samir
 ```
